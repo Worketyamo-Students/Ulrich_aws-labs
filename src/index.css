@@ -1,0 +1,20 @@
+:root {
+  --color-button: #FAFAFA;
+  --color-bgbutton: #00539C;
+  --color-body: #FFFFFF;
+  --color-title1: #18181B;
+  --color-gris: #71717A;
+  --color-bord: #E4E4E7;
+  --color-title2: #09090B;
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto: 'Roboto';
+}
+
+
+a:hover{
+  cursor: pointer;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
