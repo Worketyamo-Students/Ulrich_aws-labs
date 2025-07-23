@@ -12,8 +12,8 @@ export default function App() {
     <div className="px-[5%] py-[15%] font-inter flex flex-col gap-20"> {/*h-[100vh] justify-between" */}
       <div className="">
         <Header title="Creation de compte" description="Rentrez vos infos pour creer votre compte" />
-        <Formulaire label="Email" placeholder="abc@exemple.com" />
-        <Formulaire label="Mot de passe" placeholder="**********" />
+        <Formulaire label="Email" placeholder="abc@exemple.com" type="email" />
+        <Formulaire label="Mot de passe" placeholder="**********" type="password"/>
         <Validation />
         <Icons nom1="Github" nom2="Google" />
         <Button text="creer le compte" />
