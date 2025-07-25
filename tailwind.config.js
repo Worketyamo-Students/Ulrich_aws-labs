@@ -10,7 +10,8 @@ export default {
         title1: "var(--color-title1)",
         title2: "var(--color-title2)",
         gris: "var(--color-gris)",
-        bord: 'var(--couleur-bord)'
+        bord: 'var(--couleur-bord)',
+        grisweb: 'var(--couleur-grisweb)'
       },
 
       fontFamily: {
