@@ -12,14 +12,14 @@ export default function Inscription() {
     <div className="flex-1 h-[100vh]  lg:h-[95vh] mx-8 lg:mx-[4vw]  py-[4vh] lg:pl-[15vw] lg:py-0  font-inter flex flex-col justify-between"> {/*h-[100vh] justify-between" */}
       <div className="lg:py-4">
         <Header title="Creation de compte" description="Rentrez vos infos pour creer votre compte" />
-        <Formulaire label="Email" placeholder="abc@exemple.com" type="email"/>
-        <Formulaire label="Mot de passe" placeholder="**********" type="password"/>
+        <Formulaire label="Email" placeholder="abc@exemple.com" type="email" />
+        <Formulaire label="Mot de passe" placeholder="**********" type="password" />
         <Validation />
         <Icons nom1="Github" nom2="Google" />
-        <Button text="creer le compte" />
+        <Button text="creer le compte" link="/verification" />
         <Footer1 />
       </div>
-      <Slide />
+      <Slide color1="bg-orange-300" />
     </div>
   )
 }

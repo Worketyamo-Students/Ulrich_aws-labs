@@ -10,10 +10,10 @@ export default function VerificationOtp() {
       <div className=" h-4/5 flex flex-col justify-center">
         <Header title="Bienvenue" description="Plus que 3 petites minutes ........" />
         <OtpInput/>
-        <Button text="creer le compte" />
+        <Button text="creer le compte" link="/invitation" />
         <Footer1 />
       </div>
-      <Slide />
+      <Slide color1="bg-orange-300" color2="bg-orange-400" />
 
     </div>
   )
