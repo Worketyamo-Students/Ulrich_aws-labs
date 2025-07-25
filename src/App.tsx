@@ -2,7 +2,7 @@ import Aside from "./components/Aside"
 // import Inscription from "./components/Inscription"
 // import Invitation from "./components/invitations"
 import Onboarding from "./components/Onboarding"
-
+// import VerificationOtp from "./components/VerficationOtp"
 
 
 export default function App() {
