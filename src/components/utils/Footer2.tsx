@@ -3,9 +3,9 @@ export default function Footer2(){
         <div className="flex justify-between items-center text-bgbutton text-[1vw] font-bold">
             <a className="flex gap-1 items-center">
                 <img src="/arrow.svg" alt="arrow" />
-                <span>vos details</span>
+                <span className="hover:underline">vos details</span>
             </a>
-            <a>Signin</a>
+            <a className="hover:underline">Signin</a>
         </div>
     )
 }
