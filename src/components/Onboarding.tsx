@@ -6,7 +6,7 @@ import Image from "./utils/Image"
 
 export default function Onboarding() {
   return (
-    <div className="px-[5%] py-[15%] font-inter flex flex-col gap-20"> {/*h-[100vh] justify-between" */}
+    <div className="flex-1 h-[100vh]  lg:h-[95vh] mx-8 lg:mx-[4vw]  py-[4vh] lg:pl-[15vw] lg:py-0  font-inter flex flex-col justify-between"> {/*h-[100vh] justify-between" */}
       <div className="">
         <Header title="Bienvenue" description="Plus que 3 petites minutes ........" />
         <Image/>

@@ -9,7 +9,7 @@ import Slide from "./utils/Slide"
 
 export default function Inscription() {
   return (
-    <div className="flex-1  h-[95vh] mx-[4vw]  py-[4vh] lg:pl-[15vw] lg:py-0  font-inter flex flex-col justify-between"> {/*h-[100vh] justify-between" */}
+    <div className="flex-1 h-[100vh]  lg:h-[95vh] mx-8 lg:mx-[4vw]  py-[4vh] lg:pl-[15vw] lg:py-0  font-inter flex flex-col justify-between"> {/*h-[100vh] justify-between" */}
       <div className="lg:py-4">
         <Header title="Creation de compte" description="Rentrez vos infos pour creer votre compte" />
         <Formulaire label="Email" placeholder="abc@exemple.com" type="email"/>
