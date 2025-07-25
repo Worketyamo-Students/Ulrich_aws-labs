@@ -11,7 +11,7 @@ export default function Onboarding() {
       <div className=" h-full flex flex-col justify-center">
         <Header title="Bienvenue" description="Plus que 3 petites minutes ........" />
         <Image />
-        <Button text="creer le compte" />
+        <Button text="creer le compte" link=""/>
         <Footer1 />
       </div>
       <Slide color1="bg-orange-300" color2="bg-orange-400" color3="bg-gradient-to-r from-orange-400 to-blue-800" color4="bg-[#00539C]" />
