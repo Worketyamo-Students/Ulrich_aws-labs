@@ -7,7 +7,7 @@ import Slide from "./utils/Slide"
 
 export default function Onboarding() {
   return (
-    <div className="flex-1 h-[100vh] lg:h-[95vh] mx-8 lg:mx-[4vw] pb-5  lg:pl-[15vw] lg:pb-[2vh]  font-inter flex flex-col items-center justify-between"> {/*h-[100vh] justify-between" */}
+    <div className="flex-1 h-[50vh] lg:h-[95vh] mx-8 lg:mx-[4vw] py-6  lg:pl-[15vw] lg:py-0  font-inter flex flex-col justify-around">
       <div className=" h-full flex flex-col justify-center">
         <Header title="Bienvenue" description="Plus que 3 petites minutes ........" />
         <Image />
